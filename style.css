@@ -1,9 +1,39 @@
+:root{
+  --text: 16px; 
+  --lh: 1.6;        
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: var(--text);
+  line-height: var(--lh);
   background-color: #f7f7f7;
   color: #222;
   margin: 0;
   padding: 0;
+}
+
+/* Title + headings scale */
+h1{
+  font-size: 2.25rem;    /* 36px if base is 16px */
+  line-height: 1.15;
+  margin: 0 0 0.4rem 0;
+}
+
+h2{
+  font-size: 1.5rem;     /* 24px */
+  line-height: 1.25;
+  margin: 0 0 0.5rem 0;
+}
+
+p{
+  margin: 0.35rem 0;
+}
+
+/* Secondary text (byline/role) */
+.header-sub{
+  font-size: 0.95rem;    /* ~15px */
+  opacity: 0.8;
 }
 
 header {
