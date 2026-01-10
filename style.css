@@ -1,14 +1,21 @@
 :root{
   --text: 16px; 
-  --lh: 1.6;        
+  --lh: 1.6;
+  --peach: #FFF2F2;
+  --light-blue: #A9B5DF;
+  --blue: #7886C7;
+  --navy: #2D336B;
+
+  --text-main: #111;
+  --text-muted: #444;
 }
 
 body {
   font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--text);
   line-height: var(--lh);
-  background-color: #f7f7f7;
-  color: #222;
+  background-color: var(--peach);
+  color: var(--text-main);
   margin: 0;
   padding: 0;
 }
@@ -37,14 +44,21 @@ p{
 }
 
 header {
-  background-color: #ffffff;
+  background-color: var(--light-blue);
   padding: 1.5rem 2rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #ddd;
   padding-left: 2.5rem;
+  border-radius: 0 0 18px 18px
+}
+
+.header-sub{
+  color: var(--navy);
+  opacity: 0.75;
 }
 
 header h1 {
+  color: var(--navy);
   margin-bottom: 0.4rem;
 }
 
@@ -61,9 +75,20 @@ main {
 
 .entry {
   margin-top: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0,0,0,0.05);
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.06);
 }
 
 .entry h2 {
+  color: var(--navy);
+  border-left: 4px solid var(--blue);
+  padding-left: 0.75rem;
   margin-bottom: 0.5rem;
 } 
 
