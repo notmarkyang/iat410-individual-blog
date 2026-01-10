@@ -66,3 +66,9 @@ main {
 .entry h2 {
   margin-bottom: 0.5rem;
 } 
+
+
+@media (min-width: 800px){
+  body{ font-size: 18px; }
+  h1{ font-size: 2.75rem; } /* ~49.5px on 18px base */
+}
