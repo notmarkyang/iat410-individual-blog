@@ -96,6 +96,16 @@ main {
   margin-bottom: 0.5rem;
 } 
 
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.byline-gif {
+  height: 24px;  
+  width: auto;
+}
 
 @media (min-width: 800px){
   body{ font-size: 18px; }
