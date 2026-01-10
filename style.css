@@ -10,6 +10,11 @@
   --text-muted: #444;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--text);
@@ -44,7 +49,7 @@ p{
 }
 
 header {
-  background-color: var(--light-blue);
+  background-color: #C9D1EE;
   padding: 1.5rem 2rem;
   margin: 2.5rem auto 1.75rem auto;
   border-bottom: 1px solid #ddd;
@@ -58,7 +63,7 @@ header {
 }
 
 header h1 {
-  color: var(--navy);
+  color: #100;
   margin-bottom: 0.4rem;
 }
 
