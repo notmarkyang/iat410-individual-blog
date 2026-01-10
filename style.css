@@ -8,8 +8,18 @@ body {
 
 header {
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid #ddd;
+  padding-left: 2.5rem;
+}
+
+header h1 {
+  margin-bottom: 0.4rem;
+}
+
+header p {
+  margin: 0.2rem 0;
 }
 
 main {
