@@ -92,8 +92,8 @@ main {
 
 .entry h2 {
   color: var(--navy);
-  border-left: 4px solid var(--blue);
-  padding-left: 0.75rem;
+  border-left: none;
+  padding-left: 0;
   margin-bottom: 0.5rem;
 } 
 
