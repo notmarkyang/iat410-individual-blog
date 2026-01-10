@@ -49,12 +49,10 @@ p{
 }
 
 header {
-  padding-top: 4rem;
   background-color: #C9D1EE;
   padding: 6rem 4rem 1.5rem 2.5rem;
   margin: 0 auto 1.75rem auto;
   border-bottom: 1px solid #ddd;
-  padding-left: 2.5rem;
   border-radius: 0 0 18px 18px
 }
 
