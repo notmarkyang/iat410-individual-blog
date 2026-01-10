@@ -46,7 +46,7 @@ p{
 header {
   background-color: var(--light-blue);
   padding: 1.5rem 2rem;
-  margin-bottom: 1.5rem;
+  margin: 2.5rem auto 1.75rem auto;
   border-bottom: 1px solid #ddd;
   padding-left: 2.5rem;
   border-radius: 0 0 18px 18px
