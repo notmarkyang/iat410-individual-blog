@@ -108,10 +108,11 @@ main {
 }
 
 .post-image1 {
-  max-width: 60%;
+  max-width: 300px;  
+  width: 100%;
   height: auto;
-  margin-top: 1rem;
-  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
 }
 
 @media (min-width: 800px){
